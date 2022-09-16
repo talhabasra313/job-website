@@ -1,0 +1,16 @@
+.job-banner{
+    background-image: linear-gradient(to right,rgb(141, 141, 235),rgb(126, 204, 126));
+    text-align: center;
+    padding-top: 3rem;
+    padding-bottom: 4rem;
+}
+.job-banner h2{
+    margin-bottom: 3rem;
+    color: white;
+    padding: 0 20px;
+}
+.btn{
+    margin: 0% 5px;
+    border-radius: 0 !important;
+   
+}

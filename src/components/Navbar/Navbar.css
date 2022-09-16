@@ -1,0 +1,42 @@
+*{
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar{
+   background-image: linear-gradient(to right,rgb(141, 141, 235),rgb(126, 204, 126));
+}
+.navbar-brand{
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: white;
+}
+.nav-link {
+    margin-left: 1rem;
+    font-size: 1rem;
+    font-weight: 600;
+    color: white;
+}
+.nav-link::after{
+    content: " ";
+    background-color: red;
+    width: 0%;
+    display: block;
+    height: 2px;
+   transition: 0.5s;
+}
+.nav-link:hover::after{
+width: 100%;
+
+}
+.nav-link:hover{
+    color: blue !important;
+}
+.navbar-nav{
+    text-align: right;
+}
+ .navbar-toggler{
+    padding-right: 0;
+    outline: none;
+    border: none;
+}

@@ -1,0 +1,25 @@
+.search-form {
+    background-image: linear-gradient(to right,rgb(141, 141, 235),rgb(126, 204, 126));
+    padding: 30px 0;
+    margin: -50px 6% 50px;
+    text-align: center;
+}
+.form-control{
+    max-width: 250px;
+    display: inline-flex;
+    margin: 10px 5px;
+    border-radius: 0%;
+    box-shadow: none !important;
+    border: none;
+    align-items: center;
+}
+@media screen and (max-width:500px) {
+    .form-control{
+        max-width: 220px;
+       
+    }
+}
+
+
+
+
